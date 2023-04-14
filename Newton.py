@@ -21,7 +21,7 @@ def newtons_method(funct,functDeriv,x,n):
 
 Your_function = input("Function,f(x): ")
 deriv_function = input("Derivative of your function,f'(x): ")
-initial_guess = int(input("Initial Guess,x: "))
+initial_guess = float(input("Initial Guess,x: "))
 itr = int(input("Number of iterarions,n: "))
 
 newtons_method(Your_function,deriv_function,initial_guess,itr)
